@@ -28,6 +28,8 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    implementation ("org.postgresql:postgresql")
+    implementation("com.h2database:h2:2.2.224")
     implementation("org.springframework.boot:spring-boot-starter-data-rest")
 //    implementation("org.springframework.boot:spring-boot-starter-security")
     implementation("org.springframework.boot:spring-boot-starter-web")
